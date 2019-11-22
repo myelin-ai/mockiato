@@ -1,4 +1,5 @@
 pub(crate) use self::cloned::*;
+pub(crate) use self::closure::*;
 pub(crate) use self::once::*;
 pub(crate) use self::panic::*;
 
@@ -6,6 +7,7 @@ use crate::matcher::ArgumentsMatcher;
 use std::fmt::{Debug, Display};
 
 mod cloned;
+mod closure;
 mod once;
 mod panic;
 
